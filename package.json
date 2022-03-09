@@ -1,0 +1,20 @@
+{
+  "name": "nought-crosses-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "noughtCross.test.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "npx jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
