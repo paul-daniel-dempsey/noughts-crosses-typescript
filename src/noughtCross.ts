@@ -8,7 +8,7 @@
  * The function should return "X" if player X has won, "0" if the player 0 has won, and null if there is currently no winner.
  * @param {Array} board
  */
- const findWinner = board => {
+ export function findWinner ( board ) {
   if (board === undefined) throw new Error("board is required");
 
   // Find horizontal, vertical (90degree rotate) and diagonal winners, drop out early as possible

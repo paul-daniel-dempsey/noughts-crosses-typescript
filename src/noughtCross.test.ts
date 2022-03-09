@@ -1,4 +1,4 @@
-const {findWinner}= require("../challenges/exercise007");
+import { findWinner } from './noughtCross';
 
 describe("findWinner", () => {
 
